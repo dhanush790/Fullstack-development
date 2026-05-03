@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    min-height: 100vh;
+    
+}
+.box{
+background-color: black;
+color: white;
+font-size: 2rem;
+padding: 0.5rem;
+}
+.container{
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr );
+    grid-auto-rows: 200px;
+    gap: 3rem;
+}
+.box:nth-child(2){
+    background-color: aqua;
+    grid-column: 1/4;
+    
+}

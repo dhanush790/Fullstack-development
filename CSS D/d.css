@@ -1,0 +1,16 @@
+body{
+    font-size: 1.5rem;
+    background-color: bisque;
+}
+.column{
+     column-count: 4;
+     column-width: 200px;
+     background-color: azure;
+     border: solid black;
+     column-rule: 3px solid black;
+     column-gap: 3rem;
+}
+.a{
+    border: 3px solid black;
+    background-color: grey
+}

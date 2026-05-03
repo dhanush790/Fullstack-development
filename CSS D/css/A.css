@@ -1,0 +1,22 @@
+body{
+    padding: 10%;
+    font-size: 1rem;
+    
+}
+ol{
+    list-style-type:square;
+}
+ul{
+    list-style-type: circle;
+    text-align: center;
+    list-style-position: inside;
+    
+}
+ol li:nth-child(3){
+    color:red;
+}
+ol li::marker{
+    color: blue;
+    font-size: 2em;
+    content: "a";
+}

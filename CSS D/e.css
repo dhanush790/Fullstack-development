@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 200vh;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+header,footer{
+    color: whitesmoke;
+    font-size: 5rem;
+    text-align: center;
+    height: 80px;
+    padding: 1rem;
+}
+header{
+    position: sticky;
+    top: 0;
+   
+}
+footer{
+    position: sticky;
+    font-size: 2rem;
+    bottom: 0;
+    background-color: goldenrod;
+}
+button{
+  background-color:brown;
+  font-size: 2rem;
+  color: white;
+  position: fixed;
+  top: 30%;
+  left:0; 
+  z-index: 1;
+}

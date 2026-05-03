@@ -1,0 +1,22 @@
+body{
+    font-size: 1.5rem;
+
+
+}
+.block{
+    width: 30vw;
+    color: brown;
+    background-color: greenyellow;
+    height: 30vw;
+    padding: 1rem;
+}
+.left{
+  float: left;
+  margin-right: 10px;
+}
+section{
+    background-color: antiquewhite;
+    border: solid black;
+    padding:  1rem;
+    overflow: auto;
+}

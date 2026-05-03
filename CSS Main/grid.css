@@ -1,0 +1,20 @@
+.grid-cont{
+    display: grid;
+    background-color: blue;
+    grid-template-columns: auto auto auto;
+    border: red solid 4px;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    /*justify-content: space-between;*/
+}
+.child-1,.child-2,.child-3,.child-4,.child-5,.child-6,.child-7,.child-8,.child-9{
+    background-color: antiquewhite;
+    text-align: center;
+    border: blue solid 2px;
+    padding: 10px;
+}
+.child-5{
+    /*grid-area:2/2/4/4 ;*/
+    grid-area: 2/2/span 2/span 2;
+}

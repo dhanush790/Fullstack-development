@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin: 0;
+    font-size: 45px;
+    
+}
+.one{
+    background-color: chartreuse;
+    padding: 30px;
+    height: 100px;
+    width: 150px;
+    border: 20px solid black;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: center;
+    
+}
+.two{
+    background-color: aqua;
+   padding: 30px;
+    height: 100px;
+    width: 150px;
+    border: 20px solid gold;
+    margin: 10px;
+}
+

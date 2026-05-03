@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    padding: 20px;
+}
+.container{
+    max-width: 600px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 3px solid red;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.box:nth-child(3){
+    background-color: forestgreen;
+    flex-basis: auto;
+    
+}

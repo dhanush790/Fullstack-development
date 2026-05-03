@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    background-image: radial-gradient(white,gray);
+}
+
+header,nav,main,footer{
+  display: grid;
+  place-content: center;
+  color: white;
+}
+header,footer{
+  position: sticky;
+  background-color: black;
+
+}
+header{
+  top:0;
+}
+nav{
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  
+  border-bottom: 2px solid black;
+  
+}
+footer{
+  bottom: 0;
+}
+main{
+  flex-grow: 1;
+}
+

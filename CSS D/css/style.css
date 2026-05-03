@@ -1,0 +1,105 @@
+
+body{
+    font-size: 28px;
+   
+    background-color: gray;
+    min-height: 100vh;
+}
+    
+
+.one{
+    color: blue;
+    border: 3px solid black;
+}
+.two{
+    color: brown;
+}
+#a{
+    color: rgba(0,0,255,0.3);
+}
+#b{
+    color: green;
+} 
+p span{
+    background-color: black;
+    font-size: large;
+}
+.highlight{
+    background-color: aqua;
+     color: chocolate;
+}
+button{
+    color: brown;
+    background-color: black;
+}
+.s{
+    border: 2px solid red;
+    width: 90%;
+    font-size: 3em;
+    padding: 0.5em;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.r{
+    border: 2px dashed green;
+    width: 100%;
+    font-size: 3rem;
+    padding: 10%;
+    margin: 2rem;
+    border-top-width:8px;
+    border-bottom: 5px double blue;
+}
+.car{
+    color: white;
+    border: 2px dashed blue;
+    font-size: 1.5rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.5;
+    padding: 2rem;
+    outline: 5px solid green;
+    
+}
+.circle{
+    margin: 3em auto;
+    border: 10px solid blue;
+    width:100px;
+    height: 100px;
+    outline: 5px solid black;
+    outline-offset:10px ;
+    border-radius: 50%;
+    background-color: brown;
+
+    
+}
+.bottle{
+    padding:10%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-indent: 2em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+a{
+    text-decoration: none;
+    cursor: not-allowed;
+    color: red;
+}
+a:visited{
+    color: rgb(86, 225, 16);
+}
+a:hover,a:focus{
+    color: cornflowerblue;
+}
+a:active{
+    color:gold;
+}
